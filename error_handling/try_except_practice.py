@@ -1,7 +1,7 @@
 try:
-    num1 = float(input("Enter first number: "))
-    num2 = float(input("Enter second number: "))
-    result = num1 / num2
+    num_1 = float(input("Enter first number: "))
+    num_2 = float(input("Enter second number: "))
+    result = num_1 / num_2
 except ZeroDivisionError:
     print("Error: Division by zero is not allowed.")
 except ValueError:
